@@ -1,0 +1,68 @@
+.wrapper {
+   max-width: 900px;
+   margin: 0 auto;
+}
+
+.cards_wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.card {
+   background: #F0F0F0;
+   border: 1px solid #007FFF;
+   border-radius: 10px;
+   padding: 40px;
+}
+
+h1 {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 59px;
+   text-align: center;
+   color: #000000;
+}
+
+h3 {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+}
+
+span {
+   display: block;
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 17px;
+   color: rgba(0, 0, 0, 0.55);
+   margin-top: 8px;
+}
+
+.btn {
+   all: unset;
+   cursor: pointer;
+   padding: 12px 55px;
+   background: #0071E3;
+   border-radius: 4px;
+   color: white;
+   margin-top: 30px;
+}
+
+.btn:active {
+   scale: .8;
+}
+
+.text p {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 17px;
+}
